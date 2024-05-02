@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "This is rest-api",
   "main": "index.js",
-  "scripts": {
-    "dev": "nodemon server.js"
+
+  "compilerOptions": {
+    "module": "CommonJS"
   },
+  "scripts": {
+    "start": "nodemon server.ts"
+},
   "keywords": [
     "rest-api",
     "api",
